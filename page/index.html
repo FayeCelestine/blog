@@ -2302,23 +2302,21 @@
             isDown = true;
             startX = x;
             startY = y;
-            const currentScale = getCurrentScale();
+            
+            const BOTTOM_OFFSET = 13; 
             
             if (!hasSwitchedToTopLeft) {
                 
                 
                 
-                const computedStyle = window.getComputedStyle(waifu);
-                const currentRight = parseFloat(computedStyle.right) || 0;
-                const currentBottom = parseFloat(computedStyle.bottom) || 0;
+                const W_orig = waifu.offsetWidth;
+                const H_orig = waifu.offsetHeight;
                 
                 
-                const actualWaifuWidth = waifu.offsetWidth * currentScale;
-                const actualWaifuHeight = waifu.offsetHeight * currentScale;
                 
                 
-                startLeft = window.innerWidth - actualWaifuWidth - currentRight;
-                startTop = window.innerHeight - actualWaifuHeight - currentBottom;
+                startLeft = window.innerWidth - W_orig;
+                startTop = window.innerHeight - H_orig + BOTTOM_OFFSET;
 
                 
                 waifu.style.right = 'auto'; 
