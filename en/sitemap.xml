@@ -76,5 +76,17 @@
                 hreflang="en"
                 href="https://fayevalentinedev.com/en/tags/"
                 />
+  </url><url>
+    <loc>https://fayevalentinedev.com/en/weather/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fayevalentinedev.com/weather/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fayevalentinedev.com/en/weather/"
+                />
   </url>
 </urlset>
