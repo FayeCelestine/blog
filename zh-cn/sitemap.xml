@@ -70,8 +70,6 @@
   </url><url>
     <loc>https://fayevalentinedev.com/links/</loc>
   </url><url>
-    <loc>https://fayevalentinedev.com/search/</loc>
-  </url><url>
     <loc>https://fayevalentinedev.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -94,6 +92,18 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://fayevalentinedev.com/%E5%85%B3%E4%BA%8E/"
+                />
+  </url><url>
+    <loc>https://fayevalentinedev.com/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fayevalentinedev.com/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fayevalentinedev.com/search/"
                 />
   </url><url>
     <loc>https://fayevalentinedev.com/weather/</loc>

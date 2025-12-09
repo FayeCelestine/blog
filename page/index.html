@@ -206,7 +206,7 @@
 
 
                 
-                <span>Search</span>
+                <span>搜索</span>
             </a>
         </li>
         
@@ -2296,15 +2296,16 @@
         let startX, startY;
         let startLeft, startTop;
         let hasSwitchedToTopLeft = false; 
+        
+        
+        const BOTTOM_OFFSET = 13; 
 
         
         function dragStart(x, y) {
             isDown = true;
             startX = x;
             startY = y;
-            
-            const BOTTOM_OFFSET = 13; 
-            
+
             if (!hasSwitchedToTopLeft) {
                 
                 
@@ -2313,10 +2314,12 @@
                 const H_orig = waifu.offsetHeight;
                 
                 
+                const L_max = window.innerWidth - W_orig;
+                const T_max = window.innerHeight - H_orig + BOTTOM_OFFSET; 
                 
                 
-                startLeft = window.innerWidth - W_orig;
-                startTop = window.innerHeight - H_orig + BOTTOM_OFFSET;
+                startLeft = L_max;
+                startTop = T_max;
 
                 
                 waifu.style.right = 'auto'; 
@@ -2350,9 +2353,6 @@
             const Offset_X = W_orig * (1 - currentScale);
             const Offset_Y = H_orig * (1 - currentScale);
             
-            
-            const BOTTOM_OFFSET = 13; 
-
             
             
             const L_min = -Offset_X; 
@@ -2431,12 +2431,12 @@
             const H_orig = waifu.offsetHeight;
             
             
+            const BOTTOM_OFFSET = 13; 
+
+            
             const Offset_X = W_orig * (1 - currentScale);
             const Offset_Y = H_orig * (1 - currentScale);
             
-            
-            const BOTTOM_OFFSET = 13; 
-
             
             const L_min = -Offset_X; 
             const T_min = 30 - Offset_Y; 

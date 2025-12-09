@@ -65,6 +65,18 @@
                 href="https://fayevalentinedev.com/en/categories/"
                 />
   </url><url>
+    <loc>https://fayevalentinedev.com/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fayevalentinedev.com/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fayevalentinedev.com/en/search/"
+                />
+  </url><url>
     <loc>https://fayevalentinedev.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"

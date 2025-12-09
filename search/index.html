@@ -2,16 +2,16 @@
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Search</title>
+<title>搜索</title>
 
 <link rel='canonical' href='https://fayevalentinedev.com/search/'>
 
-<link rel="stylesheet" href="/scss/style.min.b0e76e98cdd4f7082d1fc36f7af7e0843a81201db2197c03ca426751dc923735.css"><meta property='og:title' content="Search">
+<link rel="stylesheet" href="/scss/style.min.b0e76e98cdd4f7082d1fc36f7af7e0843a81201db2197c03ca426751dc923735.css"><meta property='og:title' content="搜索">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://fayevalentinedev.com/search/'>
 <meta property='og:site_name' content='Faye Valentine'>
 <meta property='og:type' content='article'><meta property='article:section' content='Page' />
-<meta name="twitter:title" content="Search">
+<meta name="twitter:title" content="搜索">
 <meta name="twitter:description" content=""><link rel="alternate" type="application/json" href="https://fayevalentinedev.com/search/index.json">
     <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="preload" href="/search/index.json" as="fetch" crossorigin="anonymous">
@@ -206,7 +206,7 @@
 
 
                 
-                <span>Search</span>
+                <span>搜索</span>
             </a>
         </li>
         
@@ -445,15 +445,16 @@
         let startX, startY;
         let startLeft, startTop;
         let hasSwitchedToTopLeft = false; 
+        
+        
+        const BOTTOM_OFFSET = 13; 
 
         
         function dragStart(x, y) {
             isDown = true;
             startX = x;
             startY = y;
-            
-            const BOTTOM_OFFSET = 13; 
-            
+
             if (!hasSwitchedToTopLeft) {
                 
                 
@@ -462,10 +463,12 @@
                 const H_orig = waifu.offsetHeight;
                 
                 
+                const L_max = window.innerWidth - W_orig;
+                const T_max = window.innerHeight - H_orig + BOTTOM_OFFSET; 
                 
                 
-                startLeft = window.innerWidth - W_orig;
-                startTop = window.innerHeight - H_orig + BOTTOM_OFFSET;
+                startLeft = L_max;
+                startTop = T_max;
 
                 
                 waifu.style.right = 'auto'; 
@@ -499,9 +502,6 @@
             const Offset_X = W_orig * (1 - currentScale);
             const Offset_Y = H_orig * (1 - currentScale);
             
-            
-            const BOTTOM_OFFSET = 13; 
-
             
             
             const L_min = -Offset_X; 
@@ -580,12 +580,12 @@
             const H_orig = waifu.offsetHeight;
             
             
+            const BOTTOM_OFFSET = 13; 
+
+            
             const Offset_X = W_orig * (1 - currentScale);
             const Offset_Y = H_orig * (1 - currentScale);
             
-            
-            const BOTTOM_OFFSET = 13; 
-
             
             const L_min = -Offset_X; 
             const T_min = 30 - Offset_Y; 
