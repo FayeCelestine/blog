@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
+<title>天气</title>
+
+<link rel='canonical' href='https://fayevalentinedev.com/zh-cn/weather/'>
+
+<link rel="stylesheet" href="/scss/style.min.b0e76e98cdd4f7082d1fc36f7af7e0843a81201db2197c03ca426751dc923735.css"><meta property='og:title' content="天气">
+<meta property='og:description' content="">
+<meta property='og:url' content='https://fayevalentinedev.com/zh-cn/weather/'>
+<meta property='og:site_name' content='Faye Valentine'>
+<meta property='og:type' content='article'><meta property='article:section' content='Page' />
+<meta name="twitter:title" content="天气">
+<meta name="twitter:description" content="">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/zh-cn/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_698d220310e3e416.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🥰</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/zh-cn">Faye Valentine</a></h1>
+            <h2 class="site-description">:)</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/387636363'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/FayeCelestine'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://music.163.com/#/user/home?id=562018738'
+                        target="_blank"
+                        title="Netease"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path fill="none" d="M0 0h24v24H0z"/>
+        <path d="M10.421 11.375c-.294 1.028.012 2.064.784 2.653 1.061.81 2.565.3 2.874-.995.08-.337.103-.722.027-1.056-.23-1.001-.52-1.988-.792-2.996-1.33.154-2.543 1.172-2.893 2.394zm5.548-.287c.273 1.012.285 2.017-.127 3-1.128 2.69-4.721 3.14-6.573.826-1.302-1.627-1.28-3.961.06-5.734.78-1.032 1.804-1.707 3.048-2.054l.379-.104c-.084-.415-.188-.816-.243-1.224-.176-1.317.512-2.503 1.744-3.04 1.226-.535 2.708-.216 3.53.76.406.479.395 1.08-.025 1.464-.412.377-.996.346-1.435-.09-.247-.246-.51-.44-.877-.436-.525.006-.987.418-.945.937.037.468.173.93.3 1.386.022.078.216.135.338.153 1.334.197 2.504.731 3.472 1.676 2.558 2.493 2.861 6.531.672 9.44-1.529 2.032-3.61 3.168-6.127 3.409-4.621.44-8.664-2.53-9.7-7.058C2.515 10.255 4.84 5.831 8.795 4.25c.586-.234 1.143-.031 1.371.498.232.537-.019 1.086-.61 1.35-2.368 1.06-3.817 2.855-4.215 5.424-.533 3.433 1.656 6.776 5 7.72 2.723.77 5.658-.166 7.308-2.33 1.586-2.08 1.4-5.099-.427-6.873a3.979 3.979 0 0 0-1.823-1.013c.198.716.389 1.388.57 2.062z"/>
+    </g>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://x.com/luluchan_s'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/zh-cn/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh-cn/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh-cn/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh-cn/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/zh-cn/weather/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-cloud"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" /></svg>
+                
+                <span>天气</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/zh-cn/clock/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                
+                <span>时钟</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://fayevalentinedev.com/" >English</option>
+                                
+                                    <option value="https://fayevalentinedev.com/zh-cn/" selected>简体中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+            <main class="main full-width"><header class="post-header">
+        <h1 class="post-title">天气</h1>
+    </header>
+    
+    <div class="post-content" style="display: flex; justify-content: center; padding: 20px;">
+        
+        <link href="https://cdn.jsdelivr.net/npm/qweather-icons@1.8.0/font/qweather-icons.css" rel="stylesheet">
+
+        <style>
+           
+.hourly-forecast-list {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  touch-action: pan-x !important;
+  white-space: nowrap !important;
+  scroll-behavior: smooth !important;
+}
+.hourly-forecast-list::-webkit-scrollbar { height:6px; }
+.hourly-forecast-list::-webkit-scrollbar-thumb { background:#ccc; border-radius:4px; }
+html, body, .site, .page, .main, .article, .article-content { overflow-x: visible !important; }
+@media (max-width: 480px) {
+  .weather-card, .widget-weather { width:100% !important; max-width:100% !important; margin:0 !important; padding:0 !important; }
+}
+
+     
+
+    .weather-card {
+      width: 280px;
+      max-width: 100%;  
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .weather-card.expanded {
+      width: 320px;           
+      max-width: 100vw;       
+      cursor: default;
+    }
+
+     
+    .weather-small {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+    }
+    .w-left, .w-right { flex-shrink: 0; }
+    .w-mid { flex-grow: 1; margin-left: 10px; }
+    .weather-icon { font-size: 24px; }
+    .weather-city { font-size: 14px; font-weight: bold; }
+    .weather-now { font-size: 12px; opacity: 0.7; }
+    .weather-temp { font-size: 28px; font-weight: 300; }
+
+     
+    .control-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 12px;
+      height: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      font-size: 10px;
+      z-index: 10;
+    }
+    .control-btn:hover { opacity: 1; }
+
+    .expand-btn::after { 
+      content:""; width:8px; height:8px; 
+      border:2px solid #888; border-radius:4px; 
+      display:block; 
+    }
+    .collapse-btn::after { 
+      content:""; width:10px; height:2px; 
+      background:#888; border-radius:1px; 
+      display:block; position: relative; top: 4px;
+    }
+
+    .weather-card:not(.expanded) .expand-btn { display: block; }
+    .weather-card.expanded .expand-btn { display: none; }
+    .weather-card:not(.expanded) .collapse-btn { display: none; }
+    .weather-card.expanded .collapse-btn { display: block; }
+
+     
+    .weather-detailed {
+      display: none;
+      padding: 15px;
+    }
+    .weather-card.expanded .weather-detailed { display: block; }
+    .weather-card.expanded .weather-small { display: none; }
+
+     
+    .expanded-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+    .expanded-left { display: flex; align-items: center; }
+    .popup-icon { font-size: 28px; margin-right: 10px; }
+    .popup-city { font-size: 16px; font-weight: bold; }
+    .popup-desc { font-size: 13px; opacity: 0.7; }
+    .expanded-right { text-align: right; }
+    .popup-temp { font-size: 32px; font-weight: 300; line-height: 1; }
+    .popup-feel { font-size: 12px; opacity: 0.7; margin-top: 4px; }
+
+    .expanded-actions { margin-top: 10px; }
+    #city-input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 12px;
+      box-sizing: border-box;
+    }
+    .popup-meta {
+      font-size: 12px;
+      opacity: 0.8;
+      margin-top: 8px;
+    }
+
+     
+    .expanded-hourly-forecast { margin-top:10px; }
+
+    .hourly-forecast-list { 
+      display:flex; 
+      gap:8px; 
+      overflow-x:auto;  
+      padding-bottom:6px;
+      white-space:nowrap;
+      scrollbar-width: thin;
+      scroll-snap-type: x mandatory;
+    }
+
+    .hourly-forecast-list::-webkit-scrollbar { height: 4px; }
+    .hourly-forecast-list::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 4px;
+    }
+
+    .hourly-item {
+      min-width:56px;
+      padding:6px 0;
+      border-radius:6px;
+      background:#f7f7f7;
+      text-align:center;
+      font-size:12px;
+      display:inline-block;
+      scroll-snap-align: start;
+    }
+    .hi-icon { font-size:20px; margin:4px 0; }
+    .hi-temp { font-weight:600; }
+    .hi-time { font-size:11px; opacity:0.8; }
+
+     
+    .expanded-forecast { margin-top:10px; }
+    .forecast-list { display:block; padding:0; border:1px solid #eee; border-radius:6px; }
+    .forecast-day {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:8px 10px;
+      background:#fff;
+      font-size:13px;
+      border-bottom:1px solid #eee;
+    }
+    .forecast-day:last-child { border-bottom:none; }
+
+    .fd-date { flex:2; font-weight: bold; }
+    .fd-desc { flex:3; text-align: left; opacity: 0.8; }
+    .fd-icon { font-size:20px; margin:0 10px; flex-shrink: 0; }
+    .fd-temp { font-weight:700; width:60px; text-align:right; flex-shrink: 0; }
+
+     
+    .expanded-indices {
+      margin-top:12px;
+      padding-top:12px;
+      border-top:1px solid #eee;
+    }
+    .index-item {
+      font-size:12px;
+      line-height:1.6;
+      opacity:0.9;
+    }
+
+     
+    @media(max-width:440px){
+
+       
+      .widget-weather {
+        top: auto;
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .weather-card {
+        width: 100%;
+        max-width: 100%;
+      }
+      .weather-card.expanded {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+</style>
+
+
+        <div class="widget widget-weather" id="widget-weather">
+  <div class="weather-card" id="weather-card">
+    
+    <div class="weather-small" id="weather-small">
+      <div class="w-left"><div id="weather-icon" class="weather-icon"></div></div>
+      <div class="w-mid">
+        <div id="weather-city" class="weather-city">--</div>
+        <div id="weather-now" class="weather-now">--</div>
+      </div>
+      <div class="w-right">
+        <div id="weather-temp" class="weather-temp">--°</div>
+      </div>
+      <div class="control-btn expand-btn" id="expand-btn" title="展开"></div>
+    </div>
+
+    <div class="weather-detailed hidden" id="weather-detailed">
+      <div class="control-btn collapse-btn" id="collapse-btn" title="收起"></div>
+      
+      <div class="expanded-header">
+        <div class="expanded-left">
+          <div id="popup-icon" class="popup-icon"></div>
+          <div class="expanded-text">
+            <div id="popup-city" class="popup-city">--</div>
+            <div id="popup-desc" class="popup-desc">--</div>
+          </div>
+        </div>
+        <div class="expanded-right">
+          <div class="popup-temp" id="popup-temp">--°</div>
+          <div class="popup-feel" id="popup-feel">体感 --°</div>
+        </div>
+      </div>
+
+      <div class="expanded-actions">
+        <input id="city-input" placeholder="输入城市名并回车切换城市"/>
+        <div class="popup-meta" id="popup-meta">湿度: --  风速: --</div>
+      </div>
+      
+      <div class="expanded-hourly-forecast">
+        <div class="hourly-forecast-list" id="hourly-forecast-list">
+          </div>
+      </div>
+
+      <div class="expanded-forecast">
+        <div class="forecast-list" id="forecast-list">
+          </div>
+      </div>
+      
+      <div class="expanded-indices" id="expanded-indices">
+        <div id="air-quality" class="index-item">空气质量：--</div>
+        <div id="uv-index" class="index-item">紫外线指数：--</div>
+        <div id="sunscreen-text" class="index-item">防晒建议：--</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  (function(){ 
+    
+    setTimeout(function(){
+      const el = document.querySelector('.hourly-forecast-list');
+      if (!el) return;
+      
+      let node = el.parentElement;
+      while (node && node !== document.documentElement) {
+        const s = getComputedStyle(node);
+        if (s.overflowX === 'hidden' || s.overflow === 'hidden' || s.overflow === 'clip') {
+          node.style.overflowX = 'visible';
+          node.style.overflow = 'visible';
+        }
+        if (s.transform && s.transform !== 'none') {
+          
+          node.style.transform = 'none';
+        }
+        node = node.parentElement;
+      }
+      el.style['-webkit-overflow-scrolling'] = 'touch';
+      el.style.touchAction = 'pan-x';
+    }, 120);
+  })();
+
+
+(function(){
+  
+  const API_HOST_URL = "https://api.fayevalentinedev.com"; 
+  
+
+  const card = document.getElementById("weather-card");
+  const small = document.getElementById("weather-small");
+  const detailed = document.getElementById("weather-detailed");
+  const expandBtn = document.getElementById("expand-btn");
+  const collapseBtn = document.getElementById("collapse-btn");
+  const cityInput = document.getElementById("city-input");
+
+  
+  const iconEl = document.getElementById("weather-icon");
+  const cityEl = document.getElementById("weather-city");
+  const nowEl = document.getElementById("weather-now");
+  const tempEl = document.getElementById("weather-temp");
+  
+  
+  const popupCity = document.getElementById("popup-city");
+  const popupDesc = document.getElementById("popup-desc");
+  const popupTemp = document.getElementById("popup-temp");
+  const popupFeel = document.getElementById("popup-feel");
+  const popupMeta = document.getElementById("popup-meta");
+  const popupIcon = document.getElementById("popup-icon");
+  
+  
+  const hourlyForecastList = document.getElementById("hourly-forecast-list");
+  const forecastList = document.getElementById("forecast-list"); 
+  const airQualityEl = document.getElementById("air-quality");
+  const uvIndexEl = document.getElementById("uv-index");
+  const sunscreenTextEl = document.getElementById("sunscreen-text");
+
+
+  function fmtTemp(t){ return (t==null || t===undefined) ? "--°" : Math.round(t)+"°"; }
+  function fmtRangeTemp(min, max){
+    const minStr = (min!=null && min!==undefined) ? Math.round(min) : "--";
+    const maxStr = (max!=null && max!==undefined) ? Math.round(max) : "--";
+    return `${maxStr}/${minStr}°`;
+  }
+
+  
+
+  function renderNow(data){
+    if(!data) return;
+    cityEl.textContent = data.city||"--"; 
+    nowEl.textContent = data.info||"--"; 
+    tempEl.textContent = fmtTemp(data.temperature); 
+    iconEl.className = "weather-icon qi qi-"+data.icon; 
+    
+    
+    popupCity.textContent = data.city||"--"; 
+    popupDesc.textContent = data.info||"--"; 
+    popupTemp.textContent = fmtTemp(data.temperature);
+    popupFeel.textContent = "体感 "+(data.feel?fmtTemp(data.feel):"--");
+    popupMeta.textContent = `湿度: ${data.humidity??"--"}%  风速: ${data.wind??"--"}`;
+    popupIcon.className = "popup-icon qi qi-"+data.icon;
+  }
+  
+  
+
+  function renderHourly(hourlyForecasts){
+    hourlyForecastList.innerHTML = "";
+    if(!Array.isArray(hourlyForecasts)) return;
+    hourlyForecasts.forEach(h => {
+      const d = document.createElement("div");
+      d.className = "hourly-item";
+      
+      d.innerHTML = `<div class="hi-time">${h.time || "--:--"}</div>
+                     <div class="hi-icon qi qi-${h.icon || "100"}"></div>
+                     <div class="hi-temp">${fmtTemp(h.temp)}</div>`;
+      hourlyForecastList.appendChild(d);
+    });
+  }
+
+  
+
+  function renderDaily(dailyForecasts){
+    forecastList.innerHTML=""; 
+    if(!Array.isArray(dailyForecasts)) return;
+    dailyForecasts.forEach(day=>{
+      const d=document.createElement("div"); 
+      d.className="forecast-day";
+      
+      d.innerHTML=`<div class="fd-date">${day.date||""}</div>
+                   <div class="fd-desc">${day.text||""}</div>
+                   <div class="fd-icon qi qi-${day.icon||"100"}"></div>
+                   <div class="fd-temp">${fmtRangeTemp(day.min, day.max)}</div>`;
+      forecastList.appendChild(d);
+    });
+  }
+
+  
+
+  function renderIndices(data){
+    const air = data.air_quality || {};
+    const indices = data.weather_indices || {};
+    
+    
+    airQualityEl.textContent = `空气质量：${air.aqi??"--"} (${air.category??"--"})`;
+    
+    uvIndexEl.textContent = `紫外线指数：${indices.uvIndex??"--"} (${indices.uvCategory??"--"})`;
+    
+    sunscreenTextEl.textContent = `防晒建议：${indices.sunscreenText??"暂无建议"}`;
+  }
+
+
+  async function fetchWeatherByCity(city){
+    try{
+      
+      const url = `${API_HOST_URL}/api/weather?city=${encodeURIComponent(city)}`;
+      const res = await fetch(url);
+      const j = await res.json();
+      
+      
+      if(res.status !== 200 || j.code) {
+        
+        return; 
+      }
+      
+      renderNow(j);
+      renderDaily(j.daily_forecast||[]); 
+      renderHourly(j.hourly_forecast||[]); 
+      renderIndices(j); 
+      
+    }catch(e){ 
+      
+      
+      return;
+    }
+  }
+
+  async function fetchWeatherByCoords(lat, lon){
+    try{
+      
+      const url = `${API_HOST_URL}/api/weather?lat=${lat}&lon=${lon}`;
+      const res = await fetch(url);
+      const j = await res.json();
+      
+      
+      if(res.status !== 200 || j.code) {
+        
+        fetchWeatherByCity("成都"); 
+        return; 
+      }
+      
+      renderNow(j);
+      renderDaily(j.daily_forecast||[]); 
+      renderHourly(j.hourly_forecast||[]); 
+      renderIndices(j); 
+      
+    }catch(e){ 
+      
+      fetchWeatherByCity("成都"); 
+      return; 
+    }
+  }
+
+  
+  function initWeather() {
+    
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        
+        pos => fetchWeatherByCoords(pos.coords.latitude, pos.coords.longitude),
+        
+        err => fetchWeatherByCity("成都")
+      );
+    } else {
+      
+      fetchWeatherByCity("成都");
+    }
+  }
+
+  
+  expandBtn.addEventListener("click", e=>{ card.classList.add("expanded"); e.stopPropagation(); });
+  small.addEventListener("click", ()=>{ card.classList.add("expanded"); }); 
+  collapseBtn.addEventListener("click", ()=>{ card.classList.remove("expanded"); });
+
+  cityInput.addEventListener("click", e=>e.stopPropagation()); 
+  cityInput.addEventListener("keydown", e=>{
+    if(e.key==="Enter"){
+      const c = cityInput.value.trim();
+      if(c) fetchWeatherByCity(c);
+    }
+  });
+
+  initWeather();
+})();
+</script>
+        
+        </div>
+
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 fayevalentinedev.com
+    </section>
+    
+    
+</footer>
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script>
+    
+    const live2d_path = "https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
+    
+    const cssPath = "https://fayevalentinedev.com/waifu/waifu.css";
+    const waifuTipsJsonPath = "https://fayevalentinedev.com/waifu/waifu-tips.json";
+    const live2dMinJsPath = "https://fayevalentinedev.com/waifu/live2d.min.js";
+    const tipsJsPath = "https://fayevalentinedev.com/waifu/waifu-tips.js";
+
+    
+    function getCurrentScale() {
+        const windowWidth = window.innerWidth;
+        if (windowWidth <= 480) {
+            return 0.55; 
+        } else if (windowWidth <= 768) {
+            return 0.75; 
+        }
+        return 1; 
+    }
+
+    
+    function loadExternalResource(url, type) {
+        return new Promise((resolve, reject) => {
+            let tag;
+
+            if (type === "css") {
+                tag = document.createElement("link");
+                tag.rel = "stylesheet";
+                tag.href = url;
+            }
+            else if (type === "js") {
+                tag = document.createElement("script");
+                tag.src = url;
+            }
+            if (tag) {
+                tag.onload = () => resolve(url);
+                tag.onerror = () => reject(url);
+                document.head.appendChild(tag);
+            }
+        });
+    }
+
+    
+    if (screen.width >= 100) {
+        Promise.all([
+            loadExternalResource(cssPath, "css"),
+            loadExternalResource(live2dMinJsPath, "js"),
+            loadExternalResource(tipsJsPath, "js")
+        ]).then(() => {
+            
+            initWidget({
+                waifuPath: waifuTipsJsonPath,
+                
+                cdnPath: "https://cdn.jsdelivr.net/gh/FayeCelestine/static-resource@v1.0.0",
+                tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
+            });
+            initWaifuMouseEvent(); 
+
+            
+            setTimeout(autoScaleWaifu, 1000);
+            window.addEventListener("resize", autoScaleWaifu); 
+        });
+    }
+
+
+    
+    function initWaifuMouseEvent() {
+        const waifu = document.getElementById("waifu"); 
+        const live2dCanvas = document.getElementById("live2d"); 
+
+        if (!waifu || !live2dCanvas) return;
+
+        let isDown = false;
+        let startX, startY;
+        let startLeft, startTop;
+        let hasSwitchedToTopLeft = false; 
+        
+        
+        const BOTTOM_OFFSET = 13; 
+
+        
+        function dragStart(x, y) {
+            isDown = true;
+            startX = x;
+            startY = y;
+
+            if (!hasSwitchedToTopLeft) {
+                
+                
+                
+                const W_orig = waifu.offsetWidth;
+                const H_orig = waifu.offsetHeight;
+                
+                
+                const L_max = window.innerWidth - W_orig;
+                const T_max = window.innerHeight - H_orig + BOTTOM_OFFSET; 
+                
+                
+                startLeft = L_max;
+                startTop = T_max;
+
+                
+                waifu.style.right = 'auto'; 
+                waifu.style.bottom = 'auto'; 
+                
+                
+                waifu.style.setProperty('left', startLeft + 'px', 'important');
+                waifu.style.setProperty('top', startTop + 'px', 'important');
+
+                hasSwitchedToTopLeft = true; 
+            } else {
+                
+                startLeft = parseFloat(waifu.style.getPropertyValue('left'));
+                startTop = parseFloat(waifu.style.getPropertyValue('top'));
+            }
+        }
+
+        
+        function dragMove(x, y) {
+            if (!isDown) return;
+
+            let newLeft = startLeft + (x - startX);
+            let newTop = startTop + (y - startY);
+
+            
+            const currentScale = getCurrentScale();
+            const W_orig = waifu.offsetWidth;
+            const H_orig = waifu.offsetHeight;
+            
+            
+            const Offset_X = W_orig * (1 - currentScale);
+            const Offset_Y = H_orig * (1 - currentScale);
+            
+            
+            
+            const L_min = -Offset_X; 
+            
+            const T_min = 30 - Offset_Y; 
+            
+            newLeft = Math.max(L_min, newLeft);
+            newTop = Math.max(T_min, newTop);
+
+            
+            
+            const L_max = window.innerWidth - W_orig;
+            
+            const T_max = window.innerHeight - H_orig + BOTTOM_OFFSET; 
+            
+            newLeft = Math.min(newLeft, L_max);
+            newTop = Math.min(newTop, T_max);
+
+            waifu.style.setProperty('left', newLeft + "px", 'important');
+            waifu.style.setProperty('top', newTop + "px", 'important');
+        }
+
+        
+        live2dCanvas.addEventListener("mousedown", (e) => {
+            e.preventDefault();
+            dragStart(e.clientX, e.clientY);
+        });
+
+        window.addEventListener("mousemove", (e) => {
+            dragMove(e.clientX, e.clientY);
+        });
+
+        window.addEventListener("mouseup", () => {
+            isDown = false;
+        });
+
+        live2dCanvas.addEventListener("touchstart", (e) => {
+            e.preventDefault();
+            const t = e.touches[0];
+            dragStart(t.clientX, t.clientY);
+        });
+
+        window.addEventListener("touchmove", (e) => {
+            const t = e.touches[0];
+            dragMove(t.clientX, t.clientY);
+        });
+
+        window.addEventListener("touchend", () => {
+            isDown = false;
+        });
+    }
+
+
+    
+    function autoScaleWaifu() {
+        const waifu = document.getElementById("waifu");
+        if (!waifu) return;
+
+        
+        let scale = getCurrentScale(); 
+        waifu.style.transform = `scale(${scale})`;
+        waifu.style.transformOrigin = "bottom right";  
+
+        
+        const isDragged = waifu.style.left && waifu.style.left !== 'auto';
+        
+        if (isDragged) {
+            
+
+            let newLeft = parseFloat(waifu.style.getPropertyValue('left'));
+            let newTop = parseFloat(waifu.style.getPropertyValue('top'));
+
+            
+            const currentScale = scale;
+            const W_orig = waifu.offsetWidth;
+            const H_orig = waifu.offsetHeight;
+            
+            
+            const BOTTOM_OFFSET = 13; 
+
+            
+            const Offset_X = W_orig * (1 - currentScale);
+            const Offset_Y = H_orig * (1 - currentScale);
+            
+            
+            const L_min = -Offset_X; 
+            const T_min = 30 - Offset_Y; 
+            
+            
+            const L_max = window.innerWidth - W_orig;
+            const T_max = window.innerHeight - H_orig + BOTTOM_OFFSET; 
+
+            
+            newLeft = Math.max(L_min, Math.min(newLeft, L_max));
+            newTop = Math.max(T_min, Math.min(newTop, T_max));
+
+            
+            waifu.style.setProperty('left', newLeft + "px", 'important');
+            waifu.style.setProperty('top', newTop + "px", 'important');
+        }
+    }
+</script>
+    </body>
+</html>

@@ -2,103 +2,129 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fayevalentinedev.com/en/</loc>
+    <loc>https://fayevalentinedev.com/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://fayevalentinedev.com/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fayevalentinedev.com/en/"
-                />
   </url><url>
-    <loc>https://fayevalentinedev.com/en/archives/</loc>
+    <loc>https://fayevalentinedev.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://fayevalentinedev.com/archives/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fayevalentinedev.com/en/archives/"
-                />
   </url><url>
-    <loc>https://fayevalentinedev.com/en/page/</loc>
+    <loc>https://fayevalentinedev.com/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://fayevalentinedev.com/page/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fayevalentinedev.com/en/page/"
-                />
   </url><url>
-    <loc>https://fayevalentinedev.com/en/about/</loc>
+    <loc>https://fayevalentinedev.com/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://fayevalentinedev.com/%E5%85%B3%E4%BA%8E/"
+                href="https://fayevalentinedev.com/zh-cn/%E5%85%B3%E4%BA%8E/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://fayevalentinedev.com/en/about/"
+                href="https://fayevalentinedev.com/about/"
                 />
   </url><url>
-    <loc>https://fayevalentinedev.com/en/categories/</loc>
+    <loc>https://fayevalentinedev.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://fayevalentinedev.com/categories/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fayevalentinedev.com/en/categories/"
-                />
   </url><url>
-    <loc>https://fayevalentinedev.com/en/search/</loc>
+    <loc>https://fayevalentinedev.com/clock/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/clock/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fayevalentinedev.com/clock/"
+                />
+  </url><url>
+    <loc>https://fayevalentinedev.com/links/</loc>
+  </url><url>
+    <loc>https://fayevalentinedev.com/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://fayevalentinedev.com/search/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fayevalentinedev.com/en/search/"
-                />
   </url><url>
-    <loc>https://fayevalentinedev.com/en/tags/</loc>
+    <loc>https://fayevalentinedev.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://fayevalentinedev.com/tags/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fayevalentinedev.com/en/tags/"
-                />
   </url><url>
-    <loc>https://fayevalentinedev.com/en/weather/</loc>
+    <loc>https://fayevalentinedev.com/categories/test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://fayevalentinedev.com/weather/"
+                href="https://fayevalentinedev.com/zh-cn/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://fayevalentinedev.com/en/weather/"
+                href="https://fayevalentinedev.com/categories/test/"
+                />
+  </url><url>
+    <loc>https://fayevalentinedev.com/weather/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/weather/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fayevalentinedev.com/weather/"
                 />
   </url>
 </urlset>
