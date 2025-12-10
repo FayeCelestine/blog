@@ -106,6 +106,18 @@
                 href="https://fayevalentinedev.com/zh-cn/archives/"
                 />
   </url><url>
+    <loc>https://fayevalentinedev.com/zh-cn/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fayevalentinedev.com/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/links/"
+                />
+  </url><url>
     <loc>https://fayevalentinedev.com/zh-cn/tags/</loc>
     <xhtml:link
                 rel="alternate"

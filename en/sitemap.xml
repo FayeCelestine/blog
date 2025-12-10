@@ -131,6 +131,16 @@
                 />
   </url><url>
     <loc>https://fayevalentinedev.com/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fayevalentinedev.com/zh-cn/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fayevalentinedev.com/links/"
+                />
   </url><url>
     <loc>https://fayevalentinedev.com/search/</loc>
     <xhtml:link
