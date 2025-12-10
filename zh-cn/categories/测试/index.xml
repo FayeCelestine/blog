@@ -13,7 +13,7 @@
         <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
         
         <guid>https://fayevalentinedev.com/zh-cn/p/some-jokes/</guid>
-        <description>&lt;img src="https://fayevalentinedev.com/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post 一些笑话" /&gt;&lt;h2 id=&#34;冷笑话&#34;&gt;冷笑话
+        <description>&lt;img src="https://fayevalentinedev.com/p/some-jokes/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post 一些笑话" /&gt;&lt;h2 id=&#34;冷笑话&#34;&gt;冷笑话
 &lt;/h2&gt;&lt;style&gt;
 .hidden-text {
   background-color: black;   /* 黑幕 */
@@ -36,20 +36,28 @@
 &lt;p&gt;10.巧克力和西红柿打架，巧克力赢了。为什么呢? 答案:&lt;span class=&#34;hidden-text&#34;&gt;因为巧克力棒&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;11.为什么我打游戏只玩困难模式? 答案:&lt;span class=&#34;hidden-text&#34;&gt;因为我有选择困难症&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;地狱笑话&#34;&gt;地狱笑话
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://fayevalentinedev.com/%e5%9c%b0%e7%8b%b1%e7%ac%91%e8%af%9d1.jpg&#34;
-	
-	
-	
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://fayevalentinedev.com/p/some-jokes/%E5%9C%B0%E7%8B%B1%E7%AC%91%E8%AF%9D1.jpg&#34;
+	width=&#34;1284&#34;
+	height=&#34;1060&#34;
+	srcset=&#34;https://fayevalentinedev.com/p/some-jokes/%E5%9C%B0%E7%8B%B1%E7%AC%91%E8%AF%9D1_hu_15d8aedd73e6119e.jpg 480w, https://fayevalentinedev.com/p/some-jokes/%E5%9C%B0%E7%8B%B1%E7%AC%91%E8%AF%9D1_hu_96b55f30f1b45b88.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;290px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://fayevalentinedev.com/%e5%9c%b0%e7%8b%b1%e7%ac%91%e8%af%9d2.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://fayevalentinedev.com/p/some-jokes/%E5%9C%B0%E7%8B%B1%E7%AC%91%E8%AF%9D2.jpg&#34;
+	width=&#34;1107&#34;
+	height=&#34;1304&#34;
+	srcset=&#34;https://fayevalentinedev.com/p/some-jokes/%E5%9C%B0%E7%8B%B1%E7%AC%91%E8%AF%9D2_hu_60c6d55e500fc4be.jpg 480w, https://fayevalentinedev.com/p/some-jokes/%E5%9C%B0%E7%8B%B1%E7%AC%91%E8%AF%9D2_hu_28ce901948bb0351.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;84&#34;
+		data-flex-basis=&#34;203px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
